@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package main;
+import java.util.Scanner;
 
 /**
  *
@@ -11,6 +12,14 @@ package main;
  */
 public class Main {
     public static void main(String[] args){
+        Scanner console = new Scanner(System.in);
+        System.out.println("Hey. What is your name?");
+        String name = console.nextLine();
+        System.out.println("Nice to meet you " + name + "! How old are you?");
+        int age = console.nextInt();
+        System.out.println("Hey " + name + " who is " + age + " years old");
+              
+           
         
     }
     
